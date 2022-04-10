@@ -1,0 +1,1 @@
+export { default as VirtualComponent } from './virtual-component'

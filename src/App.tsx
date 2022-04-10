@@ -1,7 +1,12 @@
-import styles from './app.module.scss';
+import { VirtualComponent } from './test'
+import styles from './style.module.scss'
 
 function App() {
-  return <div className={styles['app']}>App</div>
+  return (
+    <div className={styles['container']}>
+      <VirtualComponent />
+    </div>
+  )
 }
 
 export default App

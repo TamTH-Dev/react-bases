@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+
+  .data-wrapper {
+    width: 100%;
+    position: relative;
+
+    .even-row {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .even-row,
+    .odd-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
